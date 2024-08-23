@@ -274,11 +274,7 @@ struct smb2_utf16 *smb2_utf8_to_utf16(const char *utf8);
 /* Returns a string converted to UTF8 format. Use free() to release
  * the utf8 string.
  */
-<<<<<<< HEAD
 const char *smb2_utf16_to_utf8(const uint16_t *str, size_t len);
-=======
-const char *utf16_to_utf8(const uint16_t *str, size_t len);
->>>>>>> b220443 (Fixed "Implicit conversion loses integer precision" warning)
 
 /* Convert a win timestamp to a unix timeval */
 void smb2_win_to_timeval(uint64_t smb2_time, struct smb2_timeval *tv);

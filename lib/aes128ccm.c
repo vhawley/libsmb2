@@ -138,11 +138,7 @@ static void aes_ccm_crypt(unsigned char *key,
 {
         int j;
         size_t l;
-<<<<<<< HEAD
         unsigned char s[16] _U_;
-=======
-        unsigned char s[16];
->>>>>>> b220443 (Fixed "Implicit conversion loses integer precision" warning)
 
         j = 0;
         while (plen) {
