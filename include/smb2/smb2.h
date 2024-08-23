@@ -20,7 +20,7 @@
 #define _SMB2_H_
 
 #ifdef __APPLE__
-#include <smb2-errors.h>
+#include "smb2-errors.h"
 #include <sys/types.h>
 #else
 #include <smb2/smb2-errors.h>
